@@ -3,7 +3,7 @@ export default async function handler(req, res) {
     return res.status(405).send("Method not allowed");
   }
 
-  const webhookURL = "https://TON_WEBHOOK.n8n.cloud/webhook/TON_ENDPOINT"; // Remplace par ton lien réel
+  const webhookURL = "https://maxsurf.app.n8n.cloud/webhook-test/aeaac274-b8cd-4915-afe1-2f8c4716cb3a"; // Remplace par ton lien réel
 
   try {
     const response = await fetch(webhookURL, {
