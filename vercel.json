@@ -1,7 +1,0 @@
-{
-  "functions": {
-    "api/proxy-n8n.js": {
-      "runtime": "nodejs18.x"
-    }
-  }
-}
